@@ -46,6 +46,6 @@ const anotherSlice = () => {
 
 ### Important
 
-- The slice markers // start slice and // end slice must be lowercase, or they will not be recognized.
+- The slice markers `// start slice` and `// end slice` must be lowercase, or they will not be recognized.
 
 
