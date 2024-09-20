@@ -28,7 +28,7 @@ To use CodeSlicer effectively:
 
 ### Example
 
-```
+```js
 // start slice
 function exampleSlice() {
   console.log("This is a sliced function");
