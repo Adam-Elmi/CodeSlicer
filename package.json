@@ -1,0 +1,33 @@
+{
+  "name": "codeslicer",
+  "version": "1.0.0",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tailwindcss -i ./src/output.css -o ./src/style.css",
+    "watch": "tailwindcss -i ./src/output.css -o ./src/style.css --watch"
+  },
+  "keywords": [
+    "codeslicer",
+    "code",
+    "slicer",
+    "code slicer",
+    "code splitting",
+    "code splitting tool",
+    "code splitting tool for developers",
+    "code splitting tool for web development"
+  ],
+  "author": "Adam Elmi",
+  "license": "MIT",
+  "description": "CodeSlicer is a tool that allows you to slice and dice your code into smaller, more manageable pieces. It is a web-based application that allows you to upload your code, slice it into smaller pieces. It is a great tool for developers who want to break down their code into smaller, more manageable pieces.",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "rollup": "^4.22.2",
+    "tailwindcss": "^3.4.12"
+  },
+  "dependencies": {
+    "prismjs": "^1.29.0"
+  }
+}
