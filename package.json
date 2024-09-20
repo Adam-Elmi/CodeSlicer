@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tailwindcss -i ./output.css -o ./style.css",
-    "watch": "tailwindcss -i ./output.css -o ./style.css --watch"
+    "build": "tailwindcss -i ./public/output.css -o ./public/style.css",
+    "watch": "tailwindcss -i ./public/output.css -o ./public/style.css --watch"
   },
   "keywords": [
     "codeslicer",
