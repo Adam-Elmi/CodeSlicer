@@ -1,4 +1,5 @@
 # CodeSlicer
+<<<<<<< HEAD
 
 CodeSlicer is a web-based tool that allows users to slice code into manageable segments, add notes, and customize the display of code snippets.
 
@@ -73,3 +74,6 @@ const anotherSlice = () => {
 - The slice markers `// start slice` and `// end slice` must be lowercase, or they will not be recognized.
 
 After adding slice markers, click the "Prepare Slices" button to generate and display the slices.
+=======
+CodeSlicer is a tool that allows you to slice and dice your code into smaller, more manageable pieces. It is a web-based application that allows you to upload your code, slice it into smaller pieces. It is a great tool for developers who want to break down their code into smaller, more manageable pieces.
+>>>>>>> 868995240027c58900fae52b5339d8c5997239bb
